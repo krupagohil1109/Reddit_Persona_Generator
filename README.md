@@ -17,8 +17,8 @@ This project scrapes Reddit user data and generates a psychological and topical 
 
 ### 1. Install Dependencies
 Open terminal and run:
-pip install -r requirements.txt
-python3 -m spacy download en_core_web_sm
+``` pip install -r requirements.txt ```
+``` python3 -m spacy download en_core_web_sm ```
 
 ### 2. Setup Reddit API
 Create a file named config.py in the root folder:
@@ -26,12 +26,12 @@ Create a file named config.py in the root folder:
 # config.py
 CLIENT_ID = "your_client_id"
 CLIENT_SECRET = "your_client_secret"
-USER_AGENT = "ReditPersonaBot by u/your_reddit_username"
+USER_AGENT = "ReditPersonaBot by u/your_reddit_username" 
 
 You can get these by creating a script app at:  https://www.reddit.com/prefs/apps
 
 ### 3. Scrape Reddit User Data
-python3 scraper.py
+``` python3 scraper.py ```
 
 Paste the Reddit user profile URL (e.g. https://www.reddit.com/user/kojied/) when prompted
 
@@ -39,7 +39,7 @@ This will generate:
 data/kojied.json
 
 ### 4. Generate Persona from data
-python3 persona_builder.py
+``` python3 persona_builder.py ```
 
 This will create:
 output/kojied_persona.txt
