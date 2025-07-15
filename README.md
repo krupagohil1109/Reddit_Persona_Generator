@@ -23,9 +23,11 @@ Open terminal and run:
 ### 2. Setup Reddit API
 Create a file named config.py in the root folder:
 
-# config.py
+config.py: 
 CLIENT_ID = "your_client_id"
+
 CLIENT_SECRET = "your_client_secret"
+
 USER_AGENT = "ReditPersonaBot by u/your_reddit_username" 
 
 You can get these by creating a script app at:  https://www.reddit.com/prefs/apps
