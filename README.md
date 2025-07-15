@@ -84,5 +84,6 @@ Can be extended with:
 
 # Author
 Krupa Gohil
+
 This project was built as part of Generative AI Analyst Assessment
 
