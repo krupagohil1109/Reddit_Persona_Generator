@@ -11,16 +11,7 @@ This project scrapes Reddit user data and generates a psychological and topical 
 - Built using Python and NLP libraries ('praw', 'spacy', 'nltk')
 
 ## Folder Structure 
-GenAI_Assign/
-├── config.py # Reddit API keys 
-├── scraper.py # Collects Reddit posts/comments
-├── persona_builder.py # Generates persona from JSON data
-├── requirements.txt # List of dependencies
-├── data/ # Stores raw scraped data
-│ └── kojied.json
-├── output/ # Final persona outputs
-│ └── kojied_persona.txt
-└── README.md # You’re reading it now!
+<pre> ``` GenAI_Assign/ ├── config.py # Reddit API keys (DO NOT push this publicly) ├── scraper.py # Collects Reddit posts/comments ├── persona_builder.py # Generates persona from JSON data ├── requirements.txt # List of dependencies ├── README.md # You’re reading it now! ├── .gitignore # Files/directories to ignore ├── data/ # Stores raw scraped data │ └── kojied.json └── output/ # Final persona outputs └── kojied_persona.txt ``` </pre>
 
 ## How to Run This Project
 
